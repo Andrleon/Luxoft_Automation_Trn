@@ -19,17 +19,21 @@ public class TodoListItemImpl implements Toggleable {
     }
 
     public TodoListItemImpl setTitle(String title) {
+        if (title == null || title.isEmpty())
+            throw new IllegalArgumentException();
         this.title = title;
         return this;
     }
 
     public TodoListItemImpl(String title) {
+        if (title == null || title.isEmpty())
+            throw new IllegalArgumentException();
         this.title = title;
         this.toggled = false;
     }
 
     @Override
     public void toggle() {
-        toggled = true;
+        toggled = !toggled;
     }
 }

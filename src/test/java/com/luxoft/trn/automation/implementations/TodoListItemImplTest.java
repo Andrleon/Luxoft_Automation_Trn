@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TodoListItemImplTest {
     private TodoListItemImpl item;
-    private String title = "Todo list item for test";
+    private String title = "Todo item for test";
     private String newTitle = "Todo list item for test with changed title";
 
     @BeforeEach
@@ -40,6 +40,7 @@ class TodoListItemImplTest {
         Assertions.assertTrue(item.isToggled());
     }
 
+    //done
     @Test
     public void untoggle_an_item() {
         item.toggle();
@@ -47,16 +48,19 @@ class TodoListItemImplTest {
         Assertions.assertFalse(item.isToggled());
     }
 
+    //done
     @Test
     public void item_is_not_toggled_after_creation() {
         Assertions.assertFalse(item.isToggled());
     }
 
+    //done
     @Test
     public void item_have_title() {
         Assertions.assertEquals("Todo item for test", item.getTitle());
     }
 
+    //done
     @Test
     public void cannot_create_item_with_empty_title() {
         Assertions.assertThrows(IllegalArgumentException.class,
@@ -69,6 +73,7 @@ class TodoListItemImplTest {
         TodoListItemImpl newItem = item.setTitle(newTitle);
         Assertions.assertEquals(newTitle, newItem.getTitle());
     }
+
 
     @Test
     public void cannot_set_empty_title() {

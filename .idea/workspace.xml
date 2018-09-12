@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9beddc94-e866-4a68-8b74-0720eca963ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/interfaces/Toggleable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/ElectricityConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/ElectricityConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Lamp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Switcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Switcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/ElectricityConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/Lamp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/Switcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luxoft/trn/automation/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/luxoft/trn/automation/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,8 +49,8 @@
       <file leaf-file-name="TodoListItemImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding>
                 <element signature="e#221#222#0" expanded="true" />
                 <element signature="e#251#252#0" expanded="true" />
@@ -80,8 +68,8 @@
       <file leaf-file-name="TodoListItemImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="-561">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#364#365#0" expanded="true" />
@@ -300,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoListItemImplTest.toogle_an_item">
+  <component name="RunManager" selected="JUnit.TodoListItemImplTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -350,7 +338,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TodoListItemImplTest.itemHasTitleAfterCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoListItemImplTest.cannot_create_item_with_empty_title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Luxoft_Automation_Trn" />
       <extension name="coverage">
         <pattern>
@@ -362,7 +350,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
       <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListItemImplTest" />
-      <option name="METHOD_NAME" value="itemHasTitleAfterCreation" />
+      <option name="METHOD_NAME" value="cannot_create_item_with_empty_title" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -373,7 +361,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TodoListItemImplTest.toDoItemIsNotNullAfterCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoListItemImplTest.cannot_set_empty_title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Luxoft_Automation_Trn" />
       <extension name="coverage">
         <pattern>
@@ -385,7 +373,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
       <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListItemImplTest" />
-      <option name="METHOD_NAME" value="toDoItemIsNotNullAfterCreation" />
+      <option name="METHOD_NAME" value="cannot_set_empty_title" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -396,7 +384,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TodoListItemImplTest.toogle_an_item" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoListItemImplTest.item_have_title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Luxoft_Automation_Trn" />
       <extension name="coverage">
         <pattern>
@@ -408,7 +396,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
       <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListItemImplTest" />
-      <option name="METHOD_NAME" value="toogle_an_item" />
+      <option name="METHOD_NAME" value="item_have_title" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -458,19 +446,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TodoListItemImplTest" />
-      <item itemvalue="JUnit.TodoListItemImplTest.toDoItemIsNotNullAfterCreation" />
-      <item itemvalue="JUnit.TodoListItemImplTest.toogle_an_item" />
+      <item itemvalue="JUnit.TodoListItemImplTest.item_have_title" />
+      <item itemvalue="JUnit.TodoListItemImplTest.cannot_create_item_with_empty_title" />
       <item itemvalue="JUnit.TodoListItemImplTest.can_set_new_title" />
-      <item itemvalue="JUnit.TodoListItemImplTest.itemHasTitleAfterCreation" />
+      <item itemvalue="JUnit.TodoListItemImplTest.cannot_set_empty_title" />
+      <item itemvalue="JUnit.TodoListItemImplTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoListItemImplTest.toogle_an_item" />
-        <item itemvalue="JUnit.TodoListItemImplTest.itemHasTitleAfterCreation" />
-        <item itemvalue="JUnit.TodoListItemImplTest.can_set_new_title" />
         <item itemvalue="JUnit.TodoListItemImplTest" />
-        <item itemvalue="JUnit.TodoListItemImplTest.toDoItemIsNotNullAfterCreation" />
+        <item itemvalue="JUnit.TodoListItemImplTest.cannot_set_empty_title" />
+        <item itemvalue="JUnit.TodoListItemImplTest.can_set_new_title" />
+        <item itemvalue="JUnit.TodoListItemImplTest.cannot_create_item_with_empty_title" />
+        <item itemvalue="JUnit.TodoListItemImplTest.item_have_title" />
       </list>
     </recent_temporary>
   </component>
@@ -488,35 +476,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2018.09.11 at 20h 53m 49s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_toogle_an_item - 2018.09.12 at 23h 23m 29s.xml">
+      <configuration name="TodoListItemImplTest.toogle_an_item" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testSmth - 2018.09.11 at 20h 54m 04s.xml">
-      <configuration name="FirstTest.testSmth" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_untoggle_an_item - 2018.09.12 at 23h 28m 39s.xml">
+      <configuration name="TodoListItemImplTest.untoggle_an_item" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testSmth - 2018.09.11 at 21h 50m 27s.xml">
-      <configuration name="FirstTest.testSmth" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_toogle_an_item - 2018.09.12 at 23h 28m 45s.xml">
+      <configuration name="TodoListItemImplTest.toogle_an_item" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testSmth - 2018.09.11 at 21h 50m 50s.xml">
-      <configuration name="FirstTest.testSmth" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_item_is_not_toggled_after_creation - 2018.09.12 at 23h 30m 20s.xml">
+      <configuration name="TodoListItemImplTest.item_is_not_toggled_after_creation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest - 2018.09.12 at 09h 35m 47s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_item_have_title - 2018.09.12 at 23h 30m 43s.xml">
+      <configuration name="TodoListItemImplTest.item_have_title" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListItemImplTest - 2018.09.12 at 12h 11m 33s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_item_have_title - 2018.09.12 at 23h 31m 31s.xml">
+      <configuration name="TodoListItemImplTest.item_have_title" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListItemImplTest - 2018.09.12 at 12h 14m 44s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_cannot_create_item_with_empty_title - 2018.09.12 at 23h 32m 00s.xml">
+      <configuration name="TodoListItemImplTest.cannot_create_item_with_empty_title" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListItemImplTest_toDoItemIsNotNullAfterCreation - 2018.09.12 at 12h 15m 25s.xml">
-      <configuration name="TodoListItemImplTest.toDoItemIsNotNullAfterCreation" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_cannot_create_item_with_empty_title - 2018.09.12 at 23h 34m 36s.xml">
+      <configuration name="TodoListItemImplTest.cannot_create_item_with_empty_title" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListItemImplTest_toDoItemIsNotNullAfterCreation - 2018.09.12 at 12h 16m 38s.xml">
-      <configuration name="TodoListItemImplTest.toDoItemIsNotNullAfterCreation" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_can_set_new_title - 2018.09.12 at 23h 35m 00s.xml">
+      <configuration name="TodoListItemImplTest.can_set_new_title" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListItemImplTest - 2018.09.12 at 12h 27m 25s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    <history-entry file="TodoListItemImplTest_cannot_set_empty_title - 2018.09.12 at 23h 35m 26s.xml">
+      <configuration name="TodoListItemImplTest.cannot_set_empty_title" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -525,14 +513,14 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" weight="0.329927" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" weight="0.3295302" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" weight="0.329927" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -556,7 +544,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -620,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
             <element signature="e#221#222#0" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
@@ -637,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="-561">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
