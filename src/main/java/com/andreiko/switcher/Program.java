@@ -1,4 +1,4 @@
-package com.luxoft.trn.automation;
+package com.andreiko.switcher;
 
 public class Program {
     public static void main(String[] args) {

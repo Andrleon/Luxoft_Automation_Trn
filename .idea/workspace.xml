@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9beddc94-e866-4a68-8b74-0720eca963ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Switcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/interfaces/Toggleable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Lamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/ElectricityConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/ElectricityConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Lamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Switcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Switcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/ElectricityConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/Lamp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/Switcher.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/luxoft/trn/automation/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/luxoft/trn/automation/FirstTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +31,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="408">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -33,8 +40,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,49 +49,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElectricityConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/ElectricityConsumer.java">
+      <file leaf-file-name="Toggleable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/interfaces/Toggleable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lamp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Lamp.java">
+      <file leaf-file-name="TodoListItemImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Switcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Switcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Program.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Program.java">
+      <file leaf-file-name="TodoListItemImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +104,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -107,9 +119,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/ElectricityConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Lamp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Switcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Program.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/interfaces/Toggleable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java" />
       </list>
     </option>
   </component>
@@ -176,7 +191,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Luxoft_Automation_Trn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Luxoft_Automation_Trn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Luxoft_Automation_Trn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
@@ -202,7 +246,21 @@
             <path>
               <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
               <item name="Luxoft_Automation_Trn" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Luxoft_Automation_Trn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoListItemImplTest" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
@@ -215,10 +273,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.luxoft.trn.automation.implementations" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,33 +300,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.Program" />
-      <module name="Luxoft_Automation_Trn" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luxoft.trn.automation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TodoListItemImplTest.toogle_an_item">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoListItemImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Luxoft_Automation_Trn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luxoft.trn.automation.*" />
+          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.FirstTest" />
+      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListItemImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -270,19 +327,88 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FirstTest.testSmth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoListItemImplTest.can_set_new_title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Luxoft_Automation_Trn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luxoft.trn.automation.*" />
+          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.FirstTest" />
-      <option name="METHOD_NAME" value="testSmth" />
+      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListItemImplTest" />
+      <option name="METHOD_NAME" value="can_set_new_title" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TodoListItemImplTest.itemHasTitleAfterCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Luxoft_Automation_Trn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListItemImplTest" />
+      <option name="METHOD_NAME" value="itemHasTitleAfterCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TodoListItemImplTest.toDoItemIsNotNullAfterCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Luxoft_Automation_Trn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListItemImplTest" />
+      <option name="METHOD_NAME" value="toDoItemIsNotNullAfterCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TodoListItemImplTest.toogle_an_item" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Luxoft_Automation_Trn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListItemImplTest" />
+      <option name="METHOD_NAME" value="toogle_an_item" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -332,15 +458,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FirstTest" />
-      <item itemvalue="JUnit.FirstTest.testSmth" />
-      <item itemvalue="Application.Program" />
+      <item itemvalue="JUnit.TodoListItemImplTest" />
+      <item itemvalue="JUnit.TodoListItemImplTest.toDoItemIsNotNullAfterCreation" />
+      <item itemvalue="JUnit.TodoListItemImplTest.toogle_an_item" />
+      <item itemvalue="JUnit.TodoListItemImplTest.can_set_new_title" />
+      <item itemvalue="JUnit.TodoListItemImplTest.itemHasTitleAfterCreation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program" />
-        <item itemvalue="JUnit.FirstTest" />
-        <item itemvalue="JUnit.FirstTest.testSmth" />
+        <item itemvalue="JUnit.TodoListItemImplTest.toogle_an_item" />
+        <item itemvalue="JUnit.TodoListItemImplTest.itemHasTitleAfterCreation" />
+        <item itemvalue="JUnit.TodoListItemImplTest.can_set_new_title" />
+        <item itemvalue="JUnit.TodoListItemImplTest" />
+        <item itemvalue="JUnit.TodoListItemImplTest.toDoItemIsNotNullAfterCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -373,6 +503,21 @@
     <history-entry file="FirstTest - 2018.09.12 at 09h 35m 47s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TodoListItemImplTest - 2018.09.12 at 12h 11m 33s.xml">
+      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoListItemImplTest - 2018.09.12 at 12h 14m 44s.xml">
+      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoListItemImplTest_toDoItemIsNotNullAfterCreation - 2018.09.12 at 12h 15m 25s.xml">
+      <configuration name="TodoListItemImplTest.toDoItemIsNotNullAfterCreation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoListItemImplTest_toDoItemIsNotNullAfterCreation - 2018.09.12 at 12h 16m 38s.xml">
+      <configuration name="TodoListItemImplTest.toDoItemIsNotNullAfterCreation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoListItemImplTest - 2018.09.12 at 12h 27m 25s.xml">
+      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -380,18 +525,18 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.329927" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" weight="0.3295302" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" weight="0.329927" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -411,66 +556,102 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Lamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Luxoft_Automation_Trn.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/ElectricityConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="408">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Switcher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/ElectricityConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Lamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Switcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/interfaces/Toggleable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

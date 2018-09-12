@@ -1,4 +1,6 @@
-com\luxoft\trn\automation\Program.class
-com\luxoft\trn\automation\ElectricityConsumer.class
-com\luxoft\trn\automation\Lamp.class
-com\luxoft\trn\automation\Switcher.class
+com\andreiko\switcher\Program.class
+com\andreiko\switcher\Switcher.class
+com\luxoft\trn\automation\implementations\TodoListItemImpl.class
+com\luxoft\trn\automation\interfaces\Toggleable.class
+com\andreiko\switcher\ElectricityConsumer.class
+com\andreiko\switcher\Lamp.class

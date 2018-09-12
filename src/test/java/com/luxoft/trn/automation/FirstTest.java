@@ -10,7 +10,6 @@ public class FirstTest {
     public void testSmth(){
         boolean a = false;
         assertFalse(a);
+
     }
-
-
 }

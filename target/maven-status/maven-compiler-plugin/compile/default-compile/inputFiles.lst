@@ -1,4 +1,6 @@
-C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\luxoft\trn\automation\ElectricityConsumer.java
-C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\luxoft\trn\automation\Program.java
-C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\luxoft\trn\automation\Switcher.java
-C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\luxoft\trn\automation\Lamp.java
+C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\andreiko\switcher\Switcher.java
+C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\andreiko\switcher\Lamp.java
+C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\andreiko\switcher\Program.java
+C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\luxoft\trn\automation\implementations\TodoListItemImpl.java
+C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\andreiko\switcher\ElectricityConsumer.java
+C:\Development\Projects\Luxoft_Automation_Trn\src\main\java\com\luxoft\trn\automation\interfaces\Toggleable.java

@@ -1,4 +1,4 @@
-package com.luxoft.trn.automation;
+package com.andreiko.switcher;
 
 import java.util.ArrayList;
 import java.util.List;
