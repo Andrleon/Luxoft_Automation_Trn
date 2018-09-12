@@ -1,0 +1,4 @@
+com\luxoft\trn\automation\Program.class
+com\luxoft\trn\automation\ElectricityConsumer.class
+com\luxoft\trn\automation\Lamp.class
+com\luxoft\trn\automation\Switcher.class
