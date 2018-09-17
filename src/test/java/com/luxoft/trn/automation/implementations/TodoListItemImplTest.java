@@ -1,7 +1,7 @@
 package com.luxoft.trn.automation.implementations;
 
 import org.junit.jupiter.api.*;
-
+import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TodoListItemImplTest {
@@ -72,15 +72,15 @@ class TodoListItemImplTest {
     public void can_set_new_title() {
         TodoListItemImpl newItem = item.setTitle(newTitle);
         Assertions.assertEquals(newTitle, newItem.getTitle());
+
     }
 
-
+    //done
     @Test
     public void cannot_set_empty_title() {
         Assertions.assertThrows(IllegalArgumentException.class,
                 () -> item.setTitle(""));
     }
-
 
     @AfterEach
     void tearDown() {
