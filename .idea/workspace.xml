@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9beddc94-e866-4a68-8b74-0720eca963ed" name="Default" comment="Minor changes.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/SiestSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+    <list default="true" id="9beddc94-e866-4a68-8b74-0720eca963ed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/FirstSeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/EbayTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/pageObject/BasePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/pageObject/EbayComPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/etsy/BaseEtsyTestClas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/etsy/EtsyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListItemImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/implementations/TodoListItemImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luxoft/trn/automation/implementations/TodoListItemImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luxoft/trn/automation/implementations/TodoListItemImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/luxoft/trn/automation/implementations/TodoListItemImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/SiestSeleniumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Luxoft.automation.trn-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/andreiko/switcher/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/andreiko/switcher/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luxoft.trn.automation.FirstTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luxoft.trn.automation.implementations.TodoListItemImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luxoft.trn.automation.implementations.TodoListItemImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.luxoft.trn.automation.FirstTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.luxoft.trn.automation.implementations.TodoListItemImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.luxoft.trn.automation.implementations.TodoListItemImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luxoft/trn/automation/FirstTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,71 +40,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="187">
+              <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoListItemImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java">
+      <file leaf-file-name="FirstSeleniumTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/FirstSeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-              <folding>
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-                <element signature="e#1667#1668#0" expanded="true" />
-                <marker date="1537212903621" expanded="true" signature="516:662" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodoListImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-              <folding>
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="junit-platform.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/junit-platform.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/some/code/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiestSeleniumTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/SiestSeleniumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="160">
+              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#599#600#0" expanded="true" />
@@ -101,11 +60,98 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoListImplTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListImplTest.java">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="51">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EbayTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/EbayTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/pageObject/BasePageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EbayComPageObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/pageObject/EbayComPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Program.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Switcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Switcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEtsyTestClas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/etsy/BaseEtsyTestClas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="25" lean-forward="true" selection-start-line="9" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EtsyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/etsy/EtsyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,6 +177,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="andrleon &lt;andreyko.l.a@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -149,10 +200,19 @@
         <option value="$PROJECT_DIR$/src/test/resources/junit-platform.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/IsEmptyTodoList.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/SiestSeleniumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/SiestSeleniumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/FirstSeleniumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/etsy/BaseEtsyTestClas.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/etsy/EtsyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Program.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/EbayComPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/pageObject/BasePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/pageObject/EbayComPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/EbayTests.java" />
       </list>
     </option>
   </component>
@@ -231,17 +291,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Luxoft_Automation_Trn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+              <item name="switcher" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
@@ -271,7 +321,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
@@ -280,8 +330,35 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="implementations" type="462c0819:PsiDirectoryNode" />
-              <item name="TodoListImplTest" type="1a9f42e2:ClassTreeNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="ebay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Luxoft_Automation_Trn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Luxoft_Automation_Trn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="EbayTests" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="Luxoft_Automation_Trn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Luxoft_Automation_Trn" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,6 +385,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.luxoft.trn.automation.selenium.ebay" />
       <recent name="com.luxoft.trn.automation.implementations" />
     </key>
   </component>
@@ -323,22 +401,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoListImplTest">
+  <component name="RunManager" selected="JUnit.EbayTests.shouldShowBestPriceWhenSelectAuctionAfterSearch">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.andreiko.switcher.Program" />
+      <module name="Luxoft_Automation_Trn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andreiko.switcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TodoListImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EbayTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Luxoft_Automation_Trn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
+          <option name="PATTERN" value="com.luxoft.trn.automation.selenium.ebay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListImplTest" />
+      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.selenium.ebay" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.selenium.ebay.EbayTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -350,19 +439,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TodoListImplTest.can_delete_item_using_its_title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EbayTests.shouldShowBestPriceWhenSelectAuctionAfterSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Luxoft_Automation_Trn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
+          <option name="PATTERN" value="com.luxoft.trn.automation.selenium.ebay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListImplTest" />
-      <option name="METHOD_NAME" value="can_delete_item_using_its_title" />
+      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.selenium.ebay" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.selenium.ebay.EbayTests" />
+      <option name="METHOD_NAME" value="shouldShowBestPriceWhenSelectAuctionAfterSearch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -373,20 +462,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TodoListImplTest.throw_exception_when_toggle_non_existing_item" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EtsyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Luxoft_Automation_Trn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
+          <option name="PATTERN" value="com.luxoft.trn.automation.selenium.etsy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListImplTest" />
-      <option name="METHOD_NAME" value="throw_exception_when_toggle_non_existing_item" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.selenium.etsy" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.selenium.etsy.EtsyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -396,42 +485,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TodoListImplTest.toggle_all_untoggled_items" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstSeleniumTest.sbayAdvancedSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Luxoft_Automation_Trn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
+          <option name="PATTERN" value="com.luxoft.trn.automation.selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListImplTest" />
-      <option name="METHOD_NAME" value="toggle_all_untoggled_items" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TodoListImplTest.toggle_item_in_the_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Luxoft_Automation_Trn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luxoft.trn.automation.implementations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.implementations.TodoListImplTest" />
-      <option name="METHOD_NAME" value="toggle_item_in_the_list" />
+      <option name="PACKAGE_NAME" value="com.luxoft.trn.automation.selenium" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.trn.automation.selenium.FirstSeleniumTest" />
+      <option name="METHOD_NAME" value="sbayAdvancedSearchTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -481,19 +547,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TodoListImplTest.toggle_item_in_the_list" />
-      <item itemvalue="JUnit.TodoListImplTest.throw_exception_when_toggle_non_existing_item" />
-      <item itemvalue="JUnit.TodoListImplTest.can_delete_item_using_its_title" />
-      <item itemvalue="JUnit.TodoListImplTest.toggle_all_untoggled_items" />
-      <item itemvalue="JUnit.TodoListImplTest" />
+      <item itemvalue="JUnit.FirstSeleniumTest.sbayAdvancedSearchTest" />
+      <item itemvalue="JUnit.EtsyTest" />
+      <item itemvalue="Application.Program" />
+      <item itemvalue="JUnit.EbayTests" />
+      <item itemvalue="JUnit.EbayTests.shouldShowBestPriceWhenSelectAuctionAfterSearch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoListImplTest" />
-        <item itemvalue="JUnit.TodoListImplTest.toggle_all_untoggled_items" />
-        <item itemvalue="JUnit.TodoListImplTest.can_delete_item_using_its_title" />
-        <item itemvalue="JUnit.TodoListImplTest.throw_exception_when_toggle_non_existing_item" />
-        <item itemvalue="JUnit.TodoListImplTest.toggle_item_in_the_list" />
+        <item itemvalue="JUnit.EbayTests.shouldShowBestPriceWhenSelectAuctionAfterSearch" />
+        <item itemvalue="JUnit.EbayTests" />
+        <item itemvalue="Application.Program" />
+        <item itemvalue="JUnit.FirstSeleniumTest.sbayAdvancedSearchTest" />
+        <item itemvalue="JUnit.EtsyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -508,38 +574,46 @@
       <option name="presentableId" value="Default" />
       <updated>1536687917808</updated>
     </task>
+    <task id="LOCAL-00001" summary="Class TodoListImpl is implemented based on TodoListImplTest using TDD approach.">
+      <created>1537217999463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537217999463</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TodoListImplTest_can_not_add_two_items_with_the_same_titles - 2018.09.17 at 23h 12m 45s.xml">
-      <configuration name="TodoListImplTest.can_not_add_two_items_with_the_same_titles" configurationId="JUnit" />
+    <history-entry file="EbayTests - 2018.09.21 at 11h 23m 12s.xml">
+      <configuration name="EbayTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListImplTest_throws_exception_when_deleting_item_with_wrong_index - 2018.09.17 at 23h 14m 04s.xml">
-      <configuration name="TodoListImplTest.throws_exception_when_deleting_item_with_wrong_index" configurationId="JUnit" />
+    <history-entry file="EbayTests - 2018.09.21 at 11h 35m 30s.xml">
+      <configuration name="EbayTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListImplTest_get_item_with_its_title - 2018.09.17 at 23h 17m 07s.xml">
-      <configuration name="TodoListImplTest.get_item_with_its_title" configurationId="JUnit" />
+    <history-entry file="EbayTests - 2018.09.21 at 11h 38m 22s.xml">
+      <configuration name="EbayTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListImplTest_toggle_item_in_the_list - 2018.09.17 at 23h 38m 15s.xml">
-      <configuration name="TodoListImplTest.toggle_item_in_the_list" configurationId="JUnit" />
+    <history-entry file="EbayTests - 2018.09.21 at 11h 39m 40s.xml">
+      <configuration name="EbayTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListImplTest_throw_exception_when_toggle_non_existing_item - 2018.09.17 at 23h 39m 01s.xml">
-      <configuration name="TodoListImplTest.throw_exception_when_toggle_non_existing_item" configurationId="JUnit" />
+    <history-entry file="EbayTests - 2018.09.21 at 11h 40m 09s.xml">
+      <configuration name="EbayTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListImplTest_toggle_item_in_the_list - 2018.09.17 at 23h 45m 28s.xml">
-      <configuration name="TodoListImplTest.toggle_item_in_the_list" configurationId="JUnit" />
+    <history-entry file="EbayTests - 2018.09.21 at 11h 43m 18s.xml">
+      <configuration name="EbayTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListImplTest_throw_exception_when_toggle_non_existing_item - 2018.09.17 at 23h 45m 34s.xml">
-      <configuration name="TodoListImplTest.throw_exception_when_toggle_non_existing_item" configurationId="JUnit" />
+    <history-entry file="EbayTests - 2018.09.21 at 11h 44m 59s.xml">
+      <configuration name="EbayTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListImplTest_can_delete_item_using_its_title - 2018.09.17 at 23h 47m 24s.xml">
-      <configuration name="TodoListImplTest.can_delete_item_using_its_title" configurationId="JUnit" />
+    <history-entry file="EbayTests - 2018.09.21 at 11h 46m 06s.xml">
+      <configuration name="EbayTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListImplTest_toggle_all_untoggled_items - 2018.09.17 at 23h 50m 07s.xml">
-      <configuration name="TodoListImplTest.toggle_all_untoggled_items" configurationId="JUnit" />
+    <history-entry file="EbayTests - 2018.09.21 at 11h 46m 48s.xml">
+      <configuration name="EbayTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoListImplTest_toggle_all_untoggled_items - 2018.09.17 at 23h 53m 29s.xml">
-      <configuration name="TodoListImplTest.toggle_all_untoggled_items" configurationId="JUnit" />
+    <history-entry file="EbayTests_shouldShowBestPriceWhenSelectAuctionAfterSearch - 2018.09.21 at 12h 16m 02s.xml">
+      <configuration name="EbayTests.shouldShowBestPriceWhenSelectAuctionAfterSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -579,11 +653,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Minor changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor changes." />
+    <MESSAGE value="Class TodoListImpl is implemented based on TodoListImplTest using TDD approach." />
+    <option name="LAST_COMMIT_MESSAGE" value="Class TodoListImpl is implemented based on TodoListImplTest using TDD approach." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -712,20 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Switcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -733,27 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/interfaces/Toggleable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -803,22 +847,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/SiestSeleniumTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListItemImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        <state relative-caret-position="194">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="e#278#279#0" expanded="true" />
             <element signature="e#308#309#0" expanded="true" />
@@ -833,21 +883,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/trn/automation/implementations/TodoListImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="200">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/implementations/TodoListImplTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="187">
+          <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/etsy/EtsyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Switcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="115" column="33" lean-forward="true" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="168" column="22" lean-forward="true" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andreiko/switcher/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/FirstSeleniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/etsy/BaseEtsyTestClas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="25" lean-forward="true" selection-start-line="9" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/pageObject/BasePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/EbayTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/trn/automation/selenium/ebay/pageObject/EbayComPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

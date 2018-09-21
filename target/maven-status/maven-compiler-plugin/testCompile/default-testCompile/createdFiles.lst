@@ -1,2 +1,5 @@
+com\luxoft\trn\automation\selenium\etsy\EtsyTest.class
+com\luxoft\trn\automation\implementations\TodoListImplTest.class
+com\luxoft\trn\automation\selenium\etsy\BaseEtsyTestClas.class
+com\luxoft\trn\automation\selenium\FirstSeleniumTest.class
 com\luxoft\trn\automation\implementations\TodoListItemImplTest.class
-com\luxoft\trn\automation\FirstTest.class

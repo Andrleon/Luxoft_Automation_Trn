@@ -1,5 +1,6 @@
 com\andreiko\switcher\Program.class
 com\andreiko\switcher\Switcher.class
+com\luxoft\trn\automation\implementations\TodoListImpl.class
 com\luxoft\trn\automation\implementations\TodoListItemImpl.class
 com\luxoft\trn\automation\interfaces\Toggleable.class
 com\andreiko\switcher\ElectricityConsumer.class
