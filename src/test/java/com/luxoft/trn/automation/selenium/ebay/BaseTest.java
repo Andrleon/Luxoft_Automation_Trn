@@ -14,6 +14,7 @@ public class BaseTest {
     public void Setup() {
         wd = new ChromeDriver();
         wd.manage().deleteAllCookies();
+        wd.manage().window().maximize();
     }
 
     @AfterEach
