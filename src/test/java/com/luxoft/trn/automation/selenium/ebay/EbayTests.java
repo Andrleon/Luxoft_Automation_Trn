@@ -24,9 +24,8 @@ public class EbayTests extends BaseTest {
     @Test
     public void shouldShowBestPriceAfterSelectingItemInAdditionalCategory() throws InterruptedException {
         ebayPage = new EbayComPageObject(wd);
-
         ebayPage.goToMainPage()
-                .selectItemInAdditionalCategory("Video Games & Consoles", "Electronics");
+                .selectItemInAdditionalCategory("Video Games & Consoles", "_Electronics_");
         assertThat(ebayPage.getTitle(), containsString("Video Games"));
     }
 

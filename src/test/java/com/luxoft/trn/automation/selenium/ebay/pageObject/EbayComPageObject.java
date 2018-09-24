@@ -1,14 +1,16 @@
 package com.luxoft.trn.automation.selenium.ebay.pageObject;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -83,7 +85,7 @@ public class EbayComPageObject extends BasePageObject{
         String xpathSelCategory = String.format("//td[@role = 'listitem']/a[contains(text(), '%s')]", category);
         String xpathSelSubCategory = String.format("//a[contains(text(), '%s')]", subCategory);
 
-        WebElement categoryItem = wd.findElement(By.xpath(xpathSelCategory));
+        WebElement categoryItem = findElementWithWait(By.xpath(xpathSelCategory));
         Action ourComplexAction = builder.moveToElement(categoryItem).build();
         ourComplexAction.perform();
 
@@ -97,4 +99,5 @@ public class EbayComPageObject extends BasePageObject{
     public String getTitle() {
         return wd.getTitle();
     }
+
 }
